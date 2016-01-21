@@ -1,2 +1,2 @@
 # streamingserver
-Streaming data server used for testing streaming data applications
+The purpose of this project is to create a turnkey, EC2 based streaming data server for testing stream data applications.
