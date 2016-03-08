@@ -1,3 +1,3 @@
 base:
   '*':
-    - webserver
+    - osprep01
