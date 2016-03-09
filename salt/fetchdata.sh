@@ -7,6 +7,8 @@ for i in $(seq 0 $((numDays-1))); do
     wget -O /mnt/data/$next.zip https://s3.amazonaws.com/cta-tracker/$next.zip 
     unzip -d /mnt/data /mnt/data/$next.zip &
 done
-sleep 3m
+sleep 1m
 mv /mnt/data/home/ec2-user/git/ctaTracker/data/*.json /mnt/data
 rm /mnt/data/*.zip
+rm -r /mnt/data/home
+chown -R ubuntu:ubuntu /mnt/data
