@@ -10,4 +10,4 @@ sudo apt-get install -y git
 sudo mkdir /srv/salt
 git clone https://github.com/jolson7168/streamingserver.git /home/ubuntu/streamingserver
 sudo cp -R /home/ubuntu/streamingserver/salt/* /srv/salt
-sudo salt-call --local state.highstate
+#sudo salt-call --local state.highstate
